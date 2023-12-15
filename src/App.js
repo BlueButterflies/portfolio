@@ -51,9 +51,8 @@ function App() {
 
     return (
         <div className="App">
-            {init && <Particles options={particlesOptions} />}
-
             <div ref={topRef}>
+                {init && <Particles options={particlesOptions} />}
                 <Home />
                 <div className="knowBtn">
                     <div className="flex items-center justify-center">
