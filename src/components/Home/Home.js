@@ -1,19 +1,19 @@
 import React from "react";
-import "./Home.css"
+import Container from 'react-bootstrap/Container';
 
 
 const  Home = () => {
   return (
-    <div className="container-fluid home tc">
+    <Container className="container-fluid home tc">
       <div className="navy tc">
         <p className="title tc animate__animated animate__zoomInDown">
-          <span>Hi, my name is <span className="name">Siyana</span>{/**Change with your name */}</span>
+          <span>Hi, my name is <span className="name">Siyana</span></span>
         </p>
-        <p className="subTitle animate__animated animate__zoomInDown">
-          <span>I'm <span className="profession">Web Developer</span>{/**Write what type of developer you are */}</span>
+        <p className="subTitle tc animate__animated animate__zoomInDown">
+          <span>I'm <span className="profession">Web Developer</span></span>
         </p>
       </div>
-    </div>
+    </Container>
   );
 }
 

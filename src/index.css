@@ -4,33 +4,95 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Kanit', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  width: 100%;
 }
 
-.knowBtn {
-  margin-top: 2%;
+/*Home Section*/
+.name{
+  background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.knowBtn span {
-  animation-delay: 0.60s;
+.profession{
+  background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.knowBtn .ba {
-  background: radial-gradient(circle at 10% 20%, rgb(253, 193, 104) 0%, rgb(251, 128, 128) 90%);
-  /*You can change color*/
+.knowBtn .ba{
+  background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);
   color: #fff;
-  /*You can change color*/
-  width: 200px;
-  height: 60px;
-  text-align: center;
-  justify-content: center;
 }
 
-@media only screen and (max-width: 728px){
-  .knowBtn{
-      margin-bottom: 25%;
-  }
+/*About Section*/
+.about {
+   background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);
+   color: white;
 }
 
+/*Project Section*/
+.btnLive, .btnSource, .btnAndroid, .btnWindows{
+  background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);
+  color: white;
+}
+
+.moreLessBtn .ba{
+  background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);
+  color: #fff;
+}
+
+/*
+   Start animating delayed projects.
+   You need to increment for each project by writing row.#(next id number).
+*/
+.row #four{
+  animation-delay:1s;
+}
+
+.row #five{
+  animation-delay: 2s;
+}
+
+.row #six{
+  animation-delay:3s;
+}
+
+.row #seven{
+  animation-delay: 4s;
+}
+
+.row #eight{
+  animation-delay: 5s;
+}
+
+.row #nine{
+  animation-delay: 7s;
+}
+
+.row #ten{
+  animation-delay: 9s;
+}
+
+.row #eleven{
+  animation-delay: 9.5s;
+}
+
+/* Finish animating delay projects. */
+
+/*Contact Section*/
+.contacts {
+  background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);
+}
+
+/*Footer Section*/
+.footer .copy{
+  color: rgb(255, 177, 177);
+}
+
+.icon{
+  color: rgb(255, 177, 177);
+}
+
+.footer h6 a{
+  color: rgb(255, 177, 177);
+}

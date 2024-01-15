@@ -11,17 +11,6 @@ import Contacts from "./components/Contacts/Contacts";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
 
-const styleTop = {
-    fontSize: '20px',
-    color: 'rgb(251, 128, 128)',
-    margin: '5% 0 2% 0'
-}
-
-const styleDown = {
-    fontSize: '20px',
-    color: 'white',
-    margin: '5% 0 2% 0'
-}
 
 function App() {
     const [init, setInit] = useState(false);
@@ -51,15 +40,15 @@ function App() {
 
     return (
         <div className="App">
-            <div ref={topRef}>
-                {init && <Particles options={particlesOptions} />}
+           {init && <Particles options={particlesOptions} />}
+           
+            <div className="knowBtn" ref={topRef}>
                 <Home />
-                <div className="knowBtn">
-                    <div className="flex items-center justify-center">
-                        <span onClick={handleClickAbout} className="f3 tc no-underline inline-flex items-center ba br4 pointer animate__animated animate__zoomInUp">
-                            <h3>Know more</h3>
-                        </span>
-                    </div>
+
+                <div className="flex items-center justify-center">
+                    <span onClick={handleClickAbout} className="f3 tc no-underline inline-flex items-center ba br4 pointer animate__animated animate__zoomInUp">
+                        <h3>Know more</h3>
+                    </span>
                 </div>
             </div>
 
@@ -67,14 +56,19 @@ function App() {
                 <About />
             </div>
 
-            <ProjectsCard />
-
-            <Contacts />
-
+            <div>
+                <ProjectsCard />
+            </div>
+            
+            <div>
+                <Contacts />
+            </div>
+             
             <div>
                 <div className='tc'>
-                    <FaAngleUp onClick={handleClickTop} className="top icon" style={styleTop} />
+                    <FaAngleUp onClick={handleClickTop} className="top icon" />
                 </div>
+
                 <Footer />
             </div>
         </div>

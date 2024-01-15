@@ -1,13 +1,8 @@
 import React,{useState} from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
+import {Container, Row, Col, Image} from "react-bootstrap";
 import { FaEye, FaCode, FaWindows, FaAndroid } from "react-icons/fa";
-import Data from "./data.json";
-import "./ProjectsCard.css";
 
-const styleIconBtns = { color: 'white', fontSize: '35px' };/**Button's icon style */
+import Data from "./data.json";
 
 const ProjectsCard = () => {
 
@@ -26,24 +21,31 @@ const ProjectsCard = () => {
 
             {
                 Data.slice(0, showMoreData).map((data ,i) => {
-                    if (data.isWebsite === true) {
+                    if (data.isWebsite) {
                         return (
                             <Container key={i}>
                                 {/**Start  project */}
                                 <Row className="row">
                                     <Col sm={"6"} className="tc">
-                                        <div className="project ml2 navy animate__animated animate__fadeInLeft" id={data.id}>
-                                            <div className="tc">
+                                        <div className="project ml2 navy animate__animated animate__zoomInUp" id={data.id}>
+                                            <div className="projectTitle tc">
 
                                                 <h2>
                                                     {data.title}
                                                 </h2>
                                             </div>
 
-                                            <div className="tc">
-                                                <p className="f3">
-                                                    {data.description}
-                                                </p>
+                                            <div className="projectDescription tc f3">
+                                                {data.description}
+                                            </div>
+
+                                            <div className="tc mt4">
+                                                <a href={data.urlBtnLive} target="_blank" className="btnLive f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                                    <FaEye className="btnLiveIcon" />
+                                                </a>
+                                                <a href={data.urlBtnCode} target="_blank" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                                    <FaCode className="btnSourceIcon" />
+                                                </a>
                                             </div>
                                         </div>
                                     </Col>
@@ -53,14 +55,6 @@ const ProjectsCard = () => {
 
                                             <Image src={data.image} rounded fluid className="imgProject" alt="" />
 
-                                            <div className="tc mt4">
-                                                <a href={data.urlBtnLive} target="_blank" className="btnLive f3 tc no-underline inline-flex items-center ba br4 pointer">
-                                                    <FaEye style={styleIconBtns} />
-                                                </a>
-                                                <a href={data.urlBtnCode} target="_blank" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
-                                                    <FaCode style={styleIconBtns} />
-                                                </a>
-                                            </div>
                                         </div>
                                     </Col>
                                 </Row>
@@ -74,39 +68,38 @@ const ProjectsCard = () => {
                             <Container key={i}>
                                 {/**Start  project */}
                                 <Row className="row">
-                                    <Col sm={"6"} className="tc">
-                                        <div className="project ml2 navy animate__animated animate__fadeInLeft" id={data.id}>
-                                            <div className="tc">
-
+                                    
+                                    <Col sm={"12"} md={"6"} xs={"12"} className="tc">
+                                        <div className="project ml2 navy animate__animated animate__zoomInUp" id={data.id}>
+                                            <div className="projectTitle tc">
                                                 <h2>
                                                     {data.title}
                                                 </h2>
                                             </div>
 
-                                            <div className="tc">
-                                                <p className="f3">
-                                                    {data.description}
-                                                </p>
+                                            <div className="projectDescription tc f3">
+                                                {data.description}
+                                            </div>
+
+                                            <div className="tc mt4">
+                                                <a href={data.urlBtnWindows} target="_blank" className="btnWindows f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                                    <FaWindows className="btnWindowsIcon" />
+                                                </a>
+                                                <a href={data.urlBtnAndroid} target="_blank" className="btnAndroid f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                                    <FaAndroid className="btnAndroidIcon" />
+                                                </a>
+                                                <a href={data.urlBtnCode} target="_blank" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                                    <FaCode className="btnSourceIcon" />
+                                                </a>
                                             </div>
                                         </div>
                                     </Col>
 
-                                    <Col sm={"6"} className="tc">
+                                    <Col sm={"12"} md={"6"} xs={"12"} className="tc">
                                         <div className="imgCard">
 
                                             <Image src={data.image} rounded fluid className="imgProject" alt="" />
 
-                                            <div className="tc mt4">
-                                                <a href={data.urlBtnWindows} target="_blank" className="btnWindows f3 tc no-underline inline-flex items-center ba br4 pointer">
-                                                    <FaWindows style={styleIconBtns} />
-                                                </a>
-                                                <a href={data.urlBtnAndroid} target="_blank" className="btnAndroid f3 tc no-underline inline-flex items-center ba br4 pointer">
-                                                    <FaAndroid style={styleIconBtns} />
-                                                </a>
-                                                <a href={data.urlBtnCode} target="_blank" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
-                                                    <FaCode style={styleIconBtns} />
-                                                </a>
-                                            </div>
                                         </div>
                                     </Col>
                                 </Row>
@@ -121,38 +114,37 @@ const ProjectsCard = () => {
                             <Container key={i}>
                                 {/**Start  project */}
                                 <Row className="row">
-                                    <Col sm={"6"} className="tc">
-                                        <div className="project ml2 navy animate__animated animate__fadeInLeft" id={data.id}>
-                                            <div className="tc">
-
+                                    <Col sm={"12"} md={"6"} xs={"12"} className="tc">
+                                        <div className="project ml2 navy animate__animated animate__zoomInUp" id={data.id}>
+                                            <div className="projectTitle tc">
                                                 <h2>
                                                     {data.title}
                                                 </h2>
                                             </div>
 
-                                            <div className="tc">
-                                                <p className="f3">
+                                            <div className="projectDescription tc f3">
                                                     {data.description}
-                                                </p>
+                                            </div>
+
+                                            <div className="tc mt4">
+                                                <a href={data.urlBtnWindows} target="_blank" className="btnWindows f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                                    <FaWindows className="btnWindowsIcon" />
+                                                </a>
+                                                <a href={data.urlBtnCode} target="_blank" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                                    <FaCode className="btnSourceIcon" />
+                                                </a>
                                             </div>
                                         </div>
                                     </Col>
-
-                                    <Col sm={"6"} className="tc">
+                                    
+                                    <Col sm={"12"} md={"6"} xs={"12"} className="tc">
                                         <div className="imgCard">
 
                                             <Image src={data.image} rounded fluid className="imgProject" alt="" />
 
-                                            <div className="tc mt4">
-                                                <a href={data.urlBtnWindows} target="_blank" className="btnWindows f3 tc no-underline inline-flex items-center ba br4 pointer">
-                                                    <FaWindows style={styleIconBtns} />
-                                                </a>
-                                                <a href={data.urlBtnCode} target="_blank" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
-                                                    <FaCode style={styleIconBtns} />
-                                                </a>
-                                            </div>
                                         </div>
                                     </Col>
+                                    
                                 </Row>
 
                                 <hr />
