@@ -2,7 +2,7 @@
     {
         "id": "one",
         "title": "Robofriends",
-        "description": "This project I used React and Javascript. I used the API (https://robohash.org/) for the random robot image and the API (https://jsonplaceholder.typicode.com/users) for the data information.",
+        "description": "This project I used React and Javascript. I used the API for the random robot image and the API for the data information.",
         "image": "./ImageProjects/roboapp.png",
         "urlBtnLive": "https://bluebutterflies.github.io/roboapp/",
         "urlBtnCode": "https://github.com/BlueButterflies/roboapp",
@@ -13,7 +13,7 @@
     {
         "id": "two",
         "title": "Dream Nails By Lidi Nikolova",
-        "description": "This website was created for a girl from Cyprus, who ultimately didn't put the website online.The website has been written in Italian, Russian, Bulgarian, Greek and English. I use google fonts, font awesome and Materialize framework.",
+        "description": "This website was created for a girl from Cyprus. The website has been written in Italian, Russian, Bulgarian, Greek and English. I use google fonts, font awesome and Materialize framework.",
         "image": "./ImageProjects/DreamNailsByLidinikolova.png",
         "urlBtnLive": "https://bluebutterflies.github.io/DreamNailsByLidinikolova/Eng/index.html#",
         "urlBtnCode": "https://github.com/BlueButterflies/DreamNailsByLidinikolova",
@@ -24,7 +24,7 @@
     {
         "id": "three",
         "title": "Demo Landing Page",
-        "description": "This is simple landing page. I translated in Italian and Bulgarian languages. For this progect I use Javascript, Html, Css and Materialize modern framework",
+        "description": "This is simple landing page. I translated in Italian and Bulgarian languages. For this progect I use Javascript, Html, Css and Materialize modern framework.",
         "image": "./ImageProjects/landingPage.png",
         "urlBtnLive": "https://bluebutterflies.github.io/Example-simple-page-for-company/",
         "urlBtnCode": "https://github.com/BlueButterflies/Example-simple-page-for-company",
@@ -46,7 +46,7 @@
     {
         "id": "five",
         "title": "Butterfly Tech Creative Solution",
-        "description": "This project is my first personal website. I make project in Javascrip, Html and Css. I written project in English and translated in Italian and German. For this project I use Javascrip, Html and Css.",
+        "description": "This project is my first personal website. I make project in Javascrip, Html and Css. I written project in English and translated in Italian and German.For this project I use Javascrip, Html and Css.",
         "image": "./ImageProjects/bluetech.png",
         "urlBtnLive": "https://bluebutterflies.github.io/ButterflyTech/",
         "urlBtnCode": "https://github.com/BlueButterflies/ButterflyTech",
@@ -57,7 +57,7 @@
     {
         "id": "six",
         "title": " The Flying Bird Game",
-        "description": "The game is create in Unity 2D with scrips in C#. The background changes based on the time. If it is day and the color is light blue, however if it is evening the color becomes blue.",
+        "description": "The game is create in Unity 2D with scrips in C#. The background changes based on the time.If it is day and the color is light blue, however if it is evening the color becomes blue.",
         "image": "./ImageProjects/bird.png",
         "urlBtnAndroid": "https://github.com/BlueButterflies/TheFlyingBirdGame/files/11128765/TheFlyingBirdGame.zip",
         "urlBtnCode": "https://github.com/BlueButterflies/TheFlyingBirdGame",
@@ -94,7 +94,7 @@
     {
         "id": "nine",
         "title": "Phonebook",
-        "description": "This Desktop Application project is a simple phonebook, where you can calculate the age,zodiac sign of the contact, has notifications for each contact's birthday, and than export to HTML format. The Application is create with C#, Windows Form in Visual Studio. I don't use databases SQL, but it creates a database folder in the user's PC with two folders inside - one for pictures with ID's contact, and one for each contact creating an HTML format.",
+        "description": "This Desktop Application project is a simple phonebook, where you can calculate the age, zodiac sign of the contact, has notifications for each contact's birthday, and than export to HTML format. The Application is create with C#, Windows Form in Visual Studio.",
         "image": "./ImageProjects/phonebook.jpg",
         "urlBtnWindows": "https://github.com/BlueButterflies/Phonebook/files/8539735/phonebook-setup.zip",
         "urlBtnCode": "https://github.com/BlueButterflies/Phonebook",

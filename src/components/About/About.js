@@ -20,13 +20,11 @@ function About() {
                                 </h1>
                             </div>
 
-                            <div className="description">
-                                <p className="f3">
-                                    I have been a developer passionate about creations in the IT world for 3 years. I create websites with React and Javascript,
-                                    software with C# and .Net, and 2D video games with C# and Unity.
-                                    I am constantly learning and perfecting my skills.
-                                    When I'm not writing code I love spending time with my family and reading profailing books.
-                                </p>
+                            <div className="description f3">
+                                I have been a developer passionate about creations in the IT world for 3 years. I create websites with React and Javascript,
+                                software with C# and .Net, and 2D video games with C# and Unity.
+                                I am constantly learning and perfecting my skills.
+                                When I'm not writing code I love spending time with my family and reading profailing books.
                             </div>
                         </div>
                     </Col>

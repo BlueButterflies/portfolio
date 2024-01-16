@@ -47,7 +47,7 @@
 }
 
 .knowBtn {
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 .knowBtn span {
@@ -63,7 +63,7 @@
 
 /*About section*/
 .about{
-    margin-top: 12%;
+    margin-top: 8%;
     padding: 8% 0;
     text-align: center;
     justify-content: center;
@@ -72,7 +72,7 @@
 }
 
 .about .titleAbout h1{
-    margin-top: 10%;
+    margin-top: 7%;
     font-weight: bold;
     text-align: center;
     justify-content: center;
@@ -80,8 +80,8 @@
     justify-items: center;
 }
 
-.about .description p{
-    margin: 10%;
+.about .description{
+    margin: 6%;
     text-align: justify;
     justify-content: center;
     justify-self: center;
@@ -90,7 +90,7 @@
 
 .about .imgLogo{
     margin-top: 10%;
-    width: 350px;
+    width: 400px;
     height: 400px;
 }
 
@@ -107,27 +107,32 @@
 .project .projectTitle{
     margin-top: 5%;
     font-weight: bold;
+    text-align: center;
+
 }
 
 .project .projectDescription{
     margin-top: 5%;
-    text-align:justify;
+    text-align:start;
 }
 
 .imgCard .imgProject{
+    margin: 5% 0;
     width: 400px;
     height: 300px;
 }
 
-.btnLive, .btnSource, .btnAndroid, .btnWindows{
-    margin: 7% 2%;
+.btns .btnLive, .btns .btnSource, .btns .btnAndroid, .btns .btnWindows{
+    margin: 5% 2%;
     width: 80px;
     height: 50px;
     text-align: center;
     justify-content: center;
+    justify-items: center;
+    justify-self: center;
 }
 
-.btnLive .btnLiveIcon, .btnSource .btnSourceIcon, .btnAndroid .btnAndroidIcon, .btnWindows.btnWindowsIcon{
+.btnLive .btnLiveIcon, .btnSource .btnSourceIcon, .btnAndroid .btnAndroidIcon, .btnWindows .btnWindowsIcon{
     font-size: 35px;
 }
 
@@ -154,7 +159,7 @@
 
 /*Contacts section*/
 .contacts{
-    margin-top: 8%;
+    margin-top: 3%;
     padding: 8% 0;
     justify-content: center;
     justify-items: center;
@@ -217,36 +222,38 @@
 }
 
 /*Media section*/
+
 /*Tablet orizontal*/
 @media only screen and (min-width: 737px) and (max-width: 1279px){
 
     /*Home section*/
     .home{
-        padding: 30% 0 ;
+        padding: 25% 0 ;
         text-align: center;
         justify-content: center;
     }
 
-    .home div .title{
-        font-size: 5rem;
-        margin: 5% 3% 0 3%;
+    .home .navy .title{
+        font-size: 85px;
+        margin: 5% 0;
     }
     
-    .home div .subTitle{
+    .home .navy .subTitle{
         margin-top: 8%;
-        font-size: 3.5em;
+        font-size: 75px;
     }
 
-    .knowBtn div .ba{
-        margin-bottom: 10%;
+    .knowBtn .flex .ba{
+        margin-bottom: 15%;
         height: 100px;
         border-radius: 30px;
-        width: 300px;
+        width: 320px;
     }
 
-    .knowBtn div .ba h3{
+    .knowBtn .flex .ba h3{
         font-size: 2em;
     }
+
     /*About section*/
     .about{
         padding: 10% 0;
@@ -262,12 +269,12 @@
     }
 
     .about .titleAbout h1{
-        font-size: 3.8em;
+        font-size: 60px;
         font-weight: bold;
     }
 
-    .about .description p{
-        font-size: 2.3em;
+    .about .description{
+        font-size: 35px;
     }
 
     /*Projects section*/
@@ -280,7 +287,7 @@
     }
 
     .projects h1{
-        font-size: 3.8em;
+        font-size: 60px;
         margin: 10% 0;
         font-weight: bold;
     }
@@ -292,22 +299,26 @@
     }
 
     .project .projectTitle h2{
-        font-size: 3em;
+        font-size: 50px;
         margin: 14% 0;
     }
 
     .project .projectDescription{
-        margin: 0 3%;
-        font-size: 2.3em;
+        margin: 5% 3%;
+        font-size: 35px;
+        justify-content: center;
+        justify-self: center;
+        justify-items: center;
     }
 
-    .btnLive, .btnWindows, .btnAndroid, .btnSource{
-        width: 130px;
+    .btns .btnLive,.btns .btnWindows,.btns .btnAndroid,.btns .btnSource{
+        margin: 10% 4%;
+        width: 180px;
         height: 80px;
     }
 
-    .btnLiveIcon, .btnSourceIcon, .btnAndroidIcon, .btnWindowsIcon{
-        font-size: 60px;
+    .btnLive .btnLiveIcon,.btnSource .btnSourceIcon,.btnAndroid .btnAndroidIcon,.btnWindows .btnWindowsIcon{
+        font-size: 65px;
     }
 
     .moreLessBtn .ba{
@@ -315,12 +326,12 @@
         justify-items: center;
         justify-self: center;
         margin: 15% 0;
-        width: 200px;
-        height: 70px;
+        width: 250px;
+        height: 80px;
     }
 
     .moreLessBtn .ba h3{
-        font-size: 1.3em;
+        font-size: 35px;
     }
 
     /*Contacts section*/
@@ -338,21 +349,22 @@
     }
 
     .contacts .form{
-        width: 600px;
+        width: 550px;
     }
 
     #fullName, #email, #message{
-        font-size: 2em;
+        font-size: 40px;
+        margin-bottom: 3%;
     }
 
-    .sendBtn{
+    .form .sendBtn{
         margin-top: 5%;
-        width: 150px;
-        height: 80px;
+        width: 200px;
+        height: 100px;
     }
 
-    .sendBtn .sendIcon{
-        font-size: 50px
+    .form .sendBtn .sendIcon{
+        font-size: 70px
     }
     
     /*Footer section*/
@@ -363,20 +375,24 @@
         justify-items: center;
     }
 
-    .icon{
+    .footer .icon{
+        font-size: 70px;
+    }
+
+    .top{
         font-size: 50px;
     }
 
     .footer .copy{
         margin-left: 5%;
-        margin-top: 1%;
-        font-size: 40px;
+        margin-top: 3%;
+        font-size: 35px;
     }
 
     .footer h6 a{
-        font-size: 18px;
-        margin-top: 5%;
-        margin-right: 3%;
+        font-size: 25px;
+        margin-top: 8%;
+        margin-right: 5%;
     }
 }
 
@@ -391,20 +407,24 @@
     }
 
     .home div .title{
-        font-size: 2.8em;
+        font-size: 3em;
         margin: 5% 3% 0 3%;
     }
     
     .home div .subTitle{
         margin-top: 8%;
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     .knowBtn div .ba{
         margin-bottom: 10%;
         height: 60px;
         border-radius: 30px;
-        width: 180px;
+        width: 220px;
+    }
+
+    .knowBtn div .ba h3{
+        font-size: 1.4em;
     }
 
     /*About section*/
@@ -422,12 +442,12 @@
     }
 
     .titleAbout h1{
-        font-size: 3em;
+        font-size: 2.8em;
         font-weight: bold;
     }
 
     .description p{
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
 
     /*Projects section*/
@@ -440,13 +460,13 @@
     }
 
     .projects h1{
-        font-size: 3em;
+        font-size: 2.8em;
         margin: 10% 0;
         font-weight: bold;
     }
 
     .projects .imgCard .imgProject{
-        margin-top: 20%;
+        margin-top: 10%;
         width: 350px;
         height: 350px;
     }
@@ -466,7 +486,7 @@
         height: 60px;
     }
 
-    .moreLessBtn span{
+    .moreLessBtn .ba{
         justify-content: center;
         justify-items: center;
         justify-self: center;
@@ -474,7 +494,7 @@
         padding: 7% 0;
     }
 
-    .moreLessBtn span h3{
+    .moreLessBtn .ba h3{
         font-size: 1.1em;
     }
 
@@ -510,7 +530,7 @@
     }
     
     /*Footer section*/
-    .icon{
+    .footer .icon{
         font-size: 35px;
     }
 
@@ -530,19 +550,19 @@
     /*Home section*/
     .home{
         margin: 0 3%;
-        padding: 30% 0 ;
+        padding: 32% 0 ;
         text-align: center;
         justify-content: center;
     }
 
     .title{
-        font-size: 1.7em;
+        font-size: 1.8em;
         margin-top: 5%;
     }
     
     .subTitle{
         margin-top: 8%;
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
 
     .knowBtn{
@@ -560,7 +580,7 @@
 
     /*About section*/
     .about{
-        padding: 10% 0;
+        padding: 12% 0;
         text-align: center;
         justify-content: center;
         justify-items: center;
@@ -573,13 +593,14 @@
     }
 
     .about .titleAbout h1{
+        margin-top: 5%;
         font-size: 1.8em;
-        font-weight: bold;
     }
 
-    .about .description p{
-        font-size: 1.2em;
-        text-align: center;
+    .about .description{
+        margin-top: 2%;
+        font-size: 1em;
+        text-align: start;
     }
 
     /*Projects section*/
@@ -588,7 +609,6 @@
         justify-content: center;
         justify-self: center;
         justify-items: center;
-        text-align: center;
     }
 
     .projects h1{
@@ -599,36 +619,41 @@
 
     .imgCard .imgProject{
         margin-top: 20%;
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 
     .project .projectTitle h2{
-        font-size: 1.4em;
+        font-size: 1.2em;
         margin: 14% 0;
         font-weight: bold;
     }
 
     .project .projectDescription{
-        font-size: 1.2em;
-        text-align: center;
-    }
-
-    .btnLive, .btnWindows, .btnAndroid, .btnSource{
-        width: 60px;
-        height: 50px;
+        font-size: 1em;
         margin-bottom: 10%;
     }
 
-    .moreLessBtn span{
+    .btns .btnLive,.btns .btnWindows,.btns .btnAndroid,.btns .btnSource{
+        width: 60px;
+        height: 30px;
+        margin-bottom: 10%;
+    }
+
+    .btnLive .btnLiveIcon, .btnSource .btnSourceIcon, .btnAndroid .btnAndroidIcon, .btnWindows .btnWindowsIcon{
+        font-size: 25px;
+    }
+
+    .moreLessBtn div .ba{
         justify-content: center;
         justify-items: center;
         justify-self: center;
         margin: 20% 0;
-        padding: 9% 0;
+        width: 130px;
+        height: 50px;
     }
 
-    .moreLessBtn span h3{
+    .moreLessBtn div .ba h3{
         font-size: 0.9em;
         font-weight: bold;
     }
@@ -655,21 +680,22 @@
         font-size: 1em;
     }
 
-    .sendBtn{
-        width: 100px;
-        height: 50px;
+    .form .sendBtn{
+        width: 80px;
+        height: 40px;
     }
 
-    .sendIcon{
-        font-size: 30px;
+    .form .sendBtn .sendIcon{
+        font-size: 25px;
     }
 
     /*Footer section*/
     .footer .icon{
-        font-size: 23px;
+        font-size: 30px;
     }
-    .copy{
-        margin: 1% 0 0 1%;
+
+    .footer h6 .copy{
+        margin: 0 0 0 1%;
         font-size: 1.5em;
     }
 

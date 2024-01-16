@@ -26,20 +26,29 @@ const ProjectsCard = () => {
                             <Container key={i}>
                                 {/**Start  project */}
                                 <Row className="row">
-                                    <Col sm={"6"} className="tc">
+                                    <Col sm={"12"} md={"6"} xs={"12"} className="tc">
+                                        <div className="imgCard tc">
+
+                                            <Image src={data.image} rounded fluid className="imgProject" alt="" />
+
+                                        </div>
+                                    </Col>
+
+                                    <Col sm={"12"} md={"6"} xs={"12"}className="tc">
                                         <div className="project ml2 navy animate__animated animate__zoomInUp" id={data.id}>
                                             <div className="projectTitle tc">
 
                                                 <h2>
                                                     {data.title}
                                                 </h2>
+
                                             </div>
 
                                             <div className="projectDescription tc f3">
                                                 {data.description}
                                             </div>
 
-                                            <div className="tc mt4">
+                                            <div className="tc btns">
                                                 <a href={data.urlBtnLive} target="_blank" className="btnLive f3 tc no-underline inline-flex items-center ba br4 pointer">
                                                     <FaEye className="btnLiveIcon" />
                                                 </a>
@@ -47,14 +56,6 @@ const ProjectsCard = () => {
                                                     <FaCode className="btnSourceIcon" />
                                                 </a>
                                             </div>
-                                        </div>
-                                    </Col>
-
-                                    <Col sm={"6"} className="tc">
-                                        <div className="imgCard">
-
-                                            <Image src={data.image} rounded fluid className="imgProject" alt="" />
-
                                         </div>
                                     </Col>
                                 </Row>
@@ -68,7 +69,14 @@ const ProjectsCard = () => {
                             <Container key={i}>
                                 {/**Start  project */}
                                 <Row className="row">
-                                    
+                                    <Col sm={"12"} md={"6"} xs={"12"} className="tc">
+                                        <div className="imgCard tc">
+
+                                            <Image src={data.image} rounded fluid className="imgProject" alt="" />
+
+                                        </div>
+                                    </Col>
+
                                     <Col sm={"12"} md={"6"} xs={"12"} className="tc">
                                         <div className="project ml2 navy animate__animated animate__zoomInUp" id={data.id}>
                                             <div className="projectTitle tc">
@@ -81,7 +89,7 @@ const ProjectsCard = () => {
                                                 {data.description}
                                             </div>
 
-                                            <div className="tc mt4">
+                                            <div className="tc btns">
                                                 <a href={data.urlBtnWindows} target="_blank" className="btnWindows f3 tc no-underline inline-flex items-center ba br4 pointer">
                                                     <FaWindows className="btnWindowsIcon" />
                                                 </a>
@@ -92,14 +100,6 @@ const ProjectsCard = () => {
                                                     <FaCode className="btnSourceIcon" />
                                                 </a>
                                             </div>
-                                        </div>
-                                    </Col>
-
-                                    <Col sm={"12"} md={"6"} xs={"12"} className="tc">
-                                        <div className="imgCard">
-
-                                            <Image src={data.image} rounded fluid className="imgProject" alt="" />
-
                                         </div>
                                     </Col>
                                 </Row>
@@ -115,6 +115,14 @@ const ProjectsCard = () => {
                                 {/**Start  project */}
                                 <Row className="row">
                                     <Col sm={"12"} md={"6"} xs={"12"} className="tc">
+                                        <div className="imgCard tc">
+
+                                            <Image src={data.image} rounded fluid className="imgProject" alt="" />
+
+                                        </div>
+                                    </Col>
+
+                                    <Col sm={"12"} md={"6"} xs={"12"} className="tc">
                                         <div className="project ml2 navy animate__animated animate__zoomInUp" id={data.id}>
                                             <div className="projectTitle tc">
                                                 <h2>
@@ -126,7 +134,7 @@ const ProjectsCard = () => {
                                                     {data.description}
                                             </div>
 
-                                            <div className="tc mt4">
+                                            <div className="tc btns">
                                                 <a href={data.urlBtnWindows} target="_blank" className="btnWindows f3 tc no-underline inline-flex items-center ba br4 pointer">
                                                     <FaWindows className="btnWindowsIcon" />
                                                 </a>
@@ -136,15 +144,6 @@ const ProjectsCard = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    
-                                    <Col sm={"12"} md={"6"} xs={"12"} className="tc">
-                                        <div className="imgCard">
-
-                                            <Image src={data.image} rounded fluid className="imgProject" alt="" />
-
-                                        </div>
-                                    </Col>
-                                    
                                 </Row>
 
                                 <hr />
