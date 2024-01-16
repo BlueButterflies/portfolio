@@ -13,12 +13,12 @@ const Contacts = () => {
         emailjs.sendForm('service_n1w227x', 'template_9u7qq11', form.current, '809hXrP9y7i6iv8Fe')
             .then((result) => {
                 console.log(result.text);
-                alert("Sent successfully");
             }, (error) => {
                 console.log(error.text);
             }
         );
 
+        e.target.reset(); 
     };
 
     return (
