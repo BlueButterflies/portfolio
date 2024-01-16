@@ -17,7 +17,7 @@ function Footer() {
 
             <h6 className="mt3">
                 <FaCopyright className="copy" />
-                <a href="https://github.com/BlueButterflies/personalportfolio" target="_blank">
+                <a href="https://github.com/BlueButterflies?tab=repositories" target="_blank">
                     {"2024 - S/Z Siyana Zdravkova Web Developer"}
                 </a>
             </h6>
