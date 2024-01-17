@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import {Container, Row, Col, Image} from "react-bootstrap";
-import { FaEye, FaCode, FaWindows, FaAndroid } from "react-icons/fa";
+import { FaEye, FaCode, FaWindows, FaAndroid, FaDownload } from "react-icons/fa";
 
 import Data from "./data.json";
 
@@ -50,10 +50,10 @@ const ProjectsCard = () => {
 
                                             <div className="tc btns">
                                                 <a href={data.urlBtnLive} target="_blank" className="btnLive f3 tc no-underline inline-flex items-center ba br4 pointer">
-                                                    <FaEye className="btnLiveIcon" />
+                                                    <FaEye className="btnLiveIcon" /><b>Live</b>
                                                 </a>
                                                 <a href={data.urlBtnCode} target="_blank" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
-                                                    <FaCode className="btnSourceIcon" />
+                                                    <FaCode className="btnSourceIcon" /><b>Source</b>
                                                 </a>
                                             </div>
                                         </div>
@@ -91,13 +91,13 @@ const ProjectsCard = () => {
 
                                             <div className="tc btns">
                                                 <a href={data.urlBtnWindows} target="_blank" className="btnWindows f3 tc no-underline inline-flex items-center ba br4 pointer">
-                                                    <FaWindows className="btnWindowsIcon" />
+                                                    <FaWindows className="btnWindowsIcon" /><b><FaDownload className="download"/></b>
                                                 </a>
                                                 <a href={data.urlBtnAndroid} target="_blank" className="btnAndroid f3 tc no-underline inline-flex items-center ba br4 pointer">
-                                                    <FaAndroid className="btnAndroidIcon" />
+                                                    <FaAndroid className="btnAndroidIcon" /><b><FaDownload className="download"/></b>
                                                 </a>
                                                 <a href={data.urlBtnCode} target="_blank" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
-                                                    <FaCode className="btnSourceIcon" />
+                                                    <FaCode className="btnSourceIcon" /><b>Source</b>
                                                 </a>
                                             </div>
                                         </div>
@@ -136,10 +136,10 @@ const ProjectsCard = () => {
 
                                             <div className="tc btns">
                                                 <a href={data.urlBtnWindows} target="_blank" className="btnWindows f3 tc no-underline inline-flex items-center ba br4 pointer">
-                                                    <FaWindows className="btnWindowsIcon" />
+                                                    <FaWindows className="btnWindowsIcon" /><b><FaDownload className="download"/></b>
                                                 </a>
                                                 <a href={data.urlBtnCode} target="_blank" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
-                                                    <FaCode className="btnSourceIcon" />
+                                                    <FaCode className="btnSourceIcon" /><b>Source</b>
                                                 </a>
                                             </div>
                                         </div>
@@ -160,9 +160,7 @@ const ProjectsCard = () => {
                     Data.length > 3 && (
                         <div className="flex items-center justify-center">
                             <span onClick={showMore} className="tc no-underline inline-flex items-center ba br4 pointer">
-                                <h3>
-                                    {showMoreData > 3 ? 'Show less ' : 'Show More'}
-                                </h3>
+                               {showMoreData > 3 ? 'Show less' : 'Show More'}
                             </span>
                         </div>
                     )

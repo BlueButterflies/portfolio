@@ -50,7 +50,7 @@
     margin-top: 3%;
 }
 
-.knowBtn span {
+.knowBtn .ba {
     animation-delay: 0.60s;
 }
 
@@ -59,6 +59,11 @@
     height: 60px;
     text-align: center;
     justify-content: center;
+    transform: 1s;
+}
+
+.knowBtn .ba:hover {
+    transform: scale(1.1);
 }
 
 /*About section*/
@@ -124,7 +129,7 @@
 
 .btns .btnLive, .btns .btnSource, .btns .btnAndroid, .btns .btnWindows{
     margin: 5% 2%;
-    width: 80px;
+    width: 100px;
     height: 50px;
     text-align: center;
     justify-content: center;
@@ -132,8 +137,23 @@
     justify-self: center;
 }
 
-.btnLive .btnLiveIcon, .btnSource .btnSourceIcon, .btnAndroid .btnAndroidIcon, .btnWindows .btnWindowsIcon{
+.btns b{
+    color: white;
+    font-size: 20px;
+    display: none;
+}
+
+.btnLive .btnLiveIcon, .btnSource .btnSourceIcon, .btnAndroid .btnAndroidIcon, .btnWindows .btnWindowsIcon, .btns a .download{
     font-size: 35px;
+}
+
+.btns a:hover .btnLiveIcon, .btns a:hover .btnSourceIcon, .btns a:hover .btnAndroidIcon, .btns a:hover .btnWindowsIcon{
+    display: none;
+}
+
+.btns a:hover b{
+    display: block;
+    letter-spacing: 2px;
 }
 
 .moreLessBtn .ba{
@@ -143,6 +163,11 @@
     font-size: 1.5em;
     text-align: center;
     justify-content: center;
+    transform: 1s;
+}
+
+.moreLessBtn .ba:hover{
+    transform: scale(1.1);
 }
 
 .row #one{
@@ -181,11 +206,29 @@
 .contacts .sendBtn{
     margin-top: 3%;
     width: 120px;
-    height: 60px;
+    height: 60px; 
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+}
+
+.contacts .sendBtn b{
+    display: none;
+    font-size: 30px;
 }
 
 .contacts .sendBtn .sendIcon{
     font-size: 40px;
+}
+
+.contacts .sendBtn:hover .sendIcon{
+    display: none;
+}
+
+
+.contacts .sendBtn:hover b{
+    display: block;
+    letter-spacing: 3px;
 }
 
 /*Footer section*/
@@ -317,8 +360,12 @@
         height: 80px;
     }
 
-    .btnLive .btnLiveIcon,.btnSource .btnSourceIcon,.btnAndroid .btnAndroidIcon,.btnWindows .btnWindowsIcon{
-        font-size: 65px;
+    .btnLive .btnLiveIcon,.btnSource .btnSourceIcon,.btnAndroid .btnAndroidIcon,.btnWindows .btnWindowsIcon, .btns a .download{
+        font-size: 63px;
+    }
+
+    .btns a b{
+        font-size: 40px;
     }
 
     .moreLessBtn .ba{
@@ -330,8 +377,8 @@
         height: 80px;
     }
 
-    .moreLessBtn .ba h3{
-        font-size: 35px;
+    .moreLessBtn .ba {
+        font-size: 40px;
     }
 
     /*Contacts section*/
@@ -365,6 +412,10 @@
 
     .form .sendBtn .sendIcon{
         font-size: 70px
+    }
+
+    .form .sendBtn b{
+        font-size: 50px;
     }
     
     /*Footer section*/
@@ -635,13 +686,17 @@
     }
 
     .btns .btnLive,.btns .btnWindows,.btns .btnAndroid,.btns .btnSource{
-        width: 60px;
-        height: 30px;
+        width: 72px;
+        height: 35px;
         margin-bottom: 10%;
     }
 
-    .btnLive .btnLiveIcon, .btnSource .btnSourceIcon, .btnAndroid .btnAndroidIcon, .btnWindows .btnWindowsIcon{
+    .btnLive .btnLiveIcon, .btnSource .btnSourceIcon, .btnAndroid .btnAndroidIcon, .btnWindows .btnWindowsIcon, .btns a .download{
         font-size: 25px;
+    }
+
+    .btns a b{
+        font-size: 15px;
     }
 
     .moreLessBtn div .ba{
@@ -650,11 +705,11 @@
         justify-self: center;
         margin: 20% 0;
         width: 130px;
-        height: 50px;
+        height: 40px;
     }
 
-    .moreLessBtn div .ba h3{
-        font-size: 0.9em;
+    .moreLessBtn div .ba{
+        font-size: 18px;
         font-weight: bold;
     }
 
@@ -689,14 +744,23 @@
         font-size: 25px;
     }
 
+    .form .sendBtn b{
+        font-size: 18px;
+    }
+
     /*Footer section*/
     .footer .icon{
-        font-size: 30px;
+        font-size: 23px;
+    }
+
+    .top{
+        margin-top: 6%;
+        font-size: 20px;
     }
 
     .footer h6 .copy{
         margin: 0 0 0 1%;
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     .footer h6 a{

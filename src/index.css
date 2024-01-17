@@ -24,6 +24,11 @@ body {
   color: #fff;
 }
 
+.knowBtn .ba:hover{
+  background: radial-gradient(circle at 0.4% -0.6%, rgb(255, 177, 177) 0%, rgb(143, 170, 210) 90%);
+  letter-spacing: 3px;
+}
+
 /*About Section*/
 .about {
    background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);
@@ -39,6 +44,10 @@ body {
 .moreLessBtn .ba{
   background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);
   color: #fff;
+}
+
+.moreLessBtn .ba:hover{
+  background: radial-gradient(circle at 0.4% -0.6%, rgb(255, 177, 177) 0%, rgb(143, 170, 210) 90%);
 }
 
 /*
@@ -84,6 +93,14 @@ body {
   background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);
 }
 
+.contacts .sendBtn b{
+  color: white;
+}
+
+.contacts .sendBtn .sendIcon{
+  color: white
+}
+
 /*Footer Section*/
 .footer .copy{
   color: rgb(255, 177, 177);
@@ -95,4 +112,8 @@ body {
 
 .footer h6 a{
   color: rgb(255, 177, 177);
+}
+
+.footer h6 a span:hover{
+  color: rgb(143, 170, 210);
 }
