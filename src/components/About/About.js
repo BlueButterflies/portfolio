@@ -24,7 +24,7 @@ function About() {
                                 I have been a developer passionate about creations in the IT world for 3 years. I create websites with React and Javascript,
                                 software with C# and .Net, and 2D video games with C# and Unity.
                                 I am constantly learning and perfecting my skills.
-                                When I'm not writing code I love spending time with my family and reading profailing books.
+                                When I'm not writing code I love spending time with my family and reading criminal profiling books.
                             </div>
                         </div>
                     </Col>
