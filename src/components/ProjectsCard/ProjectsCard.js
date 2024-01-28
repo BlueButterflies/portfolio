@@ -109,7 +109,7 @@ const ProjectsCard = () => {
                             </Container>
                         )
                     }
-                    else{
+                    else if(data.isWindows){
                         return(
                             <Container key={i}>
                                 {/**Start  project */}
@@ -151,7 +151,48 @@ const ProjectsCard = () => {
                             </Container>
                         )
                     }
+                    else if(data.isAndroid){
+                        return(
+                            <Container key={i}>
+                                {/**Start  project */}
+                                <Row className="row">
+                                    <Col sm={"12"} md={"6"} xs={"12"} className="tc">
+                                        <div className="imgCard tc">
 
+                                            <Image src={data.image} rounded fluid className="imgProject" alt="" />
+
+                                        </div>
+                                    </Col>
+
+                                    <Col sm={"12"} md={"6"} xs={"12"} className="tc">
+                                        <div className="project ml2 navy animate__animated animate__zoomInUp" id={data.id}>
+                                            <div className="projectTitle tc">
+                                                <h2>
+                                                    {data.title}
+                                                </h2>
+                                            </div>
+
+                                            <div className="projectDescription tc f3">
+                                                    {data.description}
+                                            </div>
+
+                                            <div className="tc btns">
+                                                <a href={data.urlBtnWindows} target="_blank" className="btnAndroid f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                                    <FaAndroid className="btnAndroidIcon" /><b><FaDownload className="download"/></b>
+                                                </a>
+                                                <a href={data.urlBtnCode} target="_blank" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                                    <FaCode className="btnSourceIcon" /><b>Source</b>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </Col>
+                                </Row>
+
+                                <hr />
+                                {/**End  project */}
+                            </Container>
+                        )
+                    }
                 })
             }
 
