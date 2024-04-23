@@ -2,7 +2,7 @@
     {
         "id": "one",
         "title": "HowTo Paid From Open Source",
-        "description": "This project I used React and Javascript. I used the API for the random robot image and the API for the data information.",
+        "description": "This project I used Javascript, Css and Html. The project is simple information in Bulgarian language based on the lemonade-stand project in English",
         "image": "./ImageProjects/nowtopaidopensource.png",
         "urlBtnLive": "https://bluebutterflies.github.io/HowToPaidFromOpenSource-/",
         "urlBtnCode": "https://github.com/BlueButterflies/HowToPaidFromOpenSource-",
