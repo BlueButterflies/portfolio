@@ -1,11 +1,9 @@
-import React,{useState} from "react";
-import {Container, Row, Col, Image} from "react-bootstrap";
-import { FaEye, FaCode, FaWindows, FaAndroid, FaDownload } from "react-icons/fa";
-
+import React, {useState} from "react";
+import {Container, Card, Row, Col, Button, Image} from "react-bootstrap";
+import { FaEye, FaWindows, FaAndroid, FaDownload, FaCode } from "react-icons/fa";
 import Data from "./data.json";
 
 const ProjectsCard = () => {
-
     const [showMoreData, setShowMoreData] = useState(3);
     const showMore = () => {
         if(showMoreData === 3){
@@ -14,8 +12,8 @@ const ProjectsCard = () => {
             setShowMoreData(3);
         }
     }
-
     return (
+        
         <div className="projects">
             <h1 className=" tc navy">Projects</h1>
 
@@ -208,7 +206,6 @@ const ProjectsCard = () => {
                 }
             </div>
         </div>
-
     );
 }
 

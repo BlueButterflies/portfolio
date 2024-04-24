@@ -57,7 +57,7 @@ function App() {
             </div>
 
             <div>
-                <ProjectsCard />
+                <ProjectsCard></ProjectsCard>
             </div>
             
             <div>
