@@ -10,6 +10,8 @@ const Contacts = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
+        //When using this repository enter your details for emailjs
+                        //your servece_id, template_id        and             your public key
         emailjs.sendForm('service_n1w227x', 'template_9u7qq11', form.current, '809hXrP9y7i6iv8Fe')
             .then((result) => {
                 console.log(result.text);
