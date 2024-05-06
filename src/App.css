@@ -18,7 +18,25 @@
     bottom: 0px;
     z-index: -1;
 }
+/*Navigation section in projects pages*/
+.nav {
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    padding: 2% 0;
+    margin-bottom: 5%;
+}
 
+.nav .link{
+    margin: 0 2%;
+    font-size: 1.3rem;
+    transform: 1s;
+}
+
+.nav .link:hover{
+    transform: scale(1.1);
+}
 /*Home section*/
 .home{
     padding-top: 4%;
@@ -109,27 +127,18 @@
     font-weight: bold;
 } 
 
-.project .projectTitle{
-    margin-top: 5%;
-    font-weight: bold;
-    text-align: center;
-
+.images{
+    opacity: 0.8;
 }
 
-.project .projectDescription{
-    margin-top: 5%;
-    text-align:start;
-}
-
-.imgCard .imgProject{
-    margin: 5% 0;
-    width: 400px;
-    height: 300px;
+.infoProjects h5, .infoProjects p{
+    font-size: 1.5rem;
+    color: white;
 }
 
 .btns .btnLive, .btns .btnSource, .btns .btnAndroid, .btns .btnWindows{
     margin: 5% 2%;
-    width: 100px;
+    width: 150px;
     height: 50px;
     text-align: center;
     justify-content: center;
@@ -139,12 +148,12 @@
 
 .btns b{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     display: none;
 }
 
 .btnLive .btnLiveIcon, .btnSource .btnSourceIcon, .btnAndroid .btnAndroidIcon, .btnWindows .btnWindowsIcon, .btns a .download{
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .btns a:hover .btnLiveIcon, .btns a:hover .btnSourceIcon, .btns a:hover .btnAndroidIcon, .btns a:hover .btnWindowsIcon{
@@ -154,32 +163,6 @@
 .btns a:hover b{
     display: block;
     letter-spacing: 2px;
-}
-
-.moreLessBtn .ba{
-    margin-top: 5%;
-    width: 170px;
-    height: 60px;
-    font-size: 1.5em;
-    text-align: center;
-    justify-content: center;
-    transform: 1s;
-}
-
-.moreLessBtn .ba:hover{
-    transform: scale(1.1);
-}
-
-.row #one{
-    animation-delay: 3s;
-}
-  
-.row #two{
-    animation-delay: 4s;
-}
-  
-.row #three{
-    animation-delay: 5s;
 }
 
 /*Contacts section*/
@@ -654,9 +637,11 @@
         text-align: start;
     }
 
-    /*Projects section*/
+    /*Projects section AND Navbar*/
+    
     .projects{
         padding: 10% 0;
+        margin: 0 5%;
         justify-content: center;
         justify-self: center;
         justify-items: center;

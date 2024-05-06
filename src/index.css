@@ -41,53 +41,6 @@ body {
   color: white;
 }
 
-.moreLessBtn .ba{
-  background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);
-  color: #fff;
-}
-
-.moreLessBtn .ba:hover{
-  background: radial-gradient(circle at 0.4% -0.6%, rgb(255, 177, 177) 0%, rgb(143, 170, 210) 90%);
-}
-
-/*
-   Start animating delayed projects.
-   You need to increment for each project by writing row.#(next id number).
-*/
-.row #four{
-  animation-delay:1s;
-}
-
-.row #five{
-  animation-delay: 2s;
-}
-
-.row #six{
-  animation-delay:3s;
-}
-
-.row #seven{
-  animation-delay: 4s;
-}
-
-.row #eight{
-  animation-delay: 5s;
-}
-
-.row #nine{
-  animation-delay: 7s;
-}
-
-.row #ten{
-  animation-delay: 9s;
-}
-
-.row #eleven{
-  animation-delay: 9.5s;
-}
-
-/* Finish animating delay projects. */
-
 /*Contact Section*/
 .contacts {
   background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);

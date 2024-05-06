@@ -40,7 +40,7 @@ function App() {
 
     return (
         <div className="App">
-           {init && <Particles options={particlesOptions} />}
+            {init && <Particles options={particlesOptions} />} 
            
             <div className="knowBtn" ref={topRef}>
                 <Home />
@@ -57,7 +57,7 @@ function App() {
             </div>
 
             <div>
-                <ProjectsCard></ProjectsCard>
+                <ProjectsCard />
             </div>
             
             <div>
