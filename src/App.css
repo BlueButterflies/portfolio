@@ -129,11 +129,11 @@
 
 .images{
     opacity: 0.8;
+    height: 50%;
 }
 
 .infoProjects h5, .infoProjects p{
     font-size: 1.5rem;
-    color: white;
 }
 
 .btns .btnLive, .btns .btnSource, .btns .btnAndroid, .btns .btnWindows{
