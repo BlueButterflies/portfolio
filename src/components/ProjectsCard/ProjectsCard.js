@@ -21,9 +21,6 @@ const ProjectsCard = () => {
                                         alt="websites"
                                     />
                                     <Carousel.Caption className="infoProjects">
-                                        <h5>{data.title}</h5>
-                                        <p>{data.description}</p>
-
                                         <div className="tc btns">
                                             <a href={data.urlBtnLive} target="_blank" className="btnLive f3 tc no-underline inline-flex items-center ba br4 pointer">
                                                 <FaEye className="btnLiveIcon" /><b>Live</b>
