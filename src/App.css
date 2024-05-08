@@ -115,7 +115,7 @@
 
 .container .card {
     max-width: 350px;
-    height: 400px;
+    height: 350px;
     margin: 30px 10px;
     padding: 20px 15px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
@@ -123,9 +123,8 @@
     transition: 0.3s ease-in-out;
 }
 
-
 .container .card:hover {
-    height: 500px;
+    height: 450px;
 }
 
 .container .card .imgContainer {
