@@ -124,7 +124,7 @@
 }
 
 .container .card:hover {
-    height: 450px;
+    height: auto;
 }
 
 .container .card .imgContainer {
@@ -349,8 +349,8 @@
     }
 
     .container .card {
-        max-width: 450px;
-        height: 400px;
+        max-width: 400px;
+        height: 300px;
         margin: 40px 10px;
         padding: 20px 15px;
         box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
@@ -360,7 +360,7 @@
     
     
     .container .card:hover {
-        height: 550px;
+        height: auto;
     }
     
     .container .card .imgContainer {
@@ -375,7 +375,7 @@
     
     .container .card .imgContainer img {
         max-width: 100%;
-        max-height: 70%;
+        max-height: 100%;
         border-radius: 4px;
     }
     
@@ -545,7 +545,7 @@
     
     
     .container .card:hover {
-        height: 400px;
+        height: auto;
     }
     
     .container .card .imgContainer {
@@ -560,7 +560,7 @@
     
     .container .card .imgContainer img {
         max-width: 100%;
-        max-height: 60%;
+        max-height: 100%;
         border-radius: 4px;
     }
     
