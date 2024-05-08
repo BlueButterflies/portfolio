@@ -115,7 +115,7 @@
 
 .container .card {
     max-width: 350px;
-    height: auto;
+    height: 400px;
     margin: 30px 10px;
     padding: 20px 15px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
@@ -125,7 +125,7 @@
 
 
 .container .card:hover {
-    height: 450px;
+    height: 500px;
 }
 
 .container .card .imgContainer {
