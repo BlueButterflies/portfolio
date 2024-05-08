@@ -12,7 +12,7 @@
     {
         "title": "Open Source Guides",
         "description": "I contributed to the translation into Bulgarian of this open source created by Github.",
-        "image": "./ImageProjects/openscource.guide.png",
+        "image": "./ImageProjects/opensource.guide.png",
         "urlBtnLive": "https://opensource.guide/bg/",
         "urlBtnCode": "https://github.com/BlueButterflies/opensource.guide",
         "isWebsite": true,
