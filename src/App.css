@@ -365,8 +365,8 @@
     
     .container .card .imgContainer {
         position: relative;
-        width: 400px;
-        height: 350px;
+        width: 350px;
+        height: 200px;
         top: -50px;
         left: 10px;
         z-index: 1;
@@ -380,11 +380,11 @@
     }
     
     .container .card .content h2{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .container .card .content p{
-        font-size: 20px;
+        font-size: 15px;
     }
     .btns .btnLive,
     .btns .btnWindows,
@@ -397,8 +397,7 @@
     .btnLive .btnLiveIcon,
     .btnSource .btnSourceIcon,
     .btnAndroid .btnAndroidIcon,
-    .btnWindows .btnWindowsIcon,
-    .btns a .download {
+    .btnWindows .btnWindowsIcon{
         font-size: 25px;
     }
 
@@ -546,13 +545,13 @@
     
     
     .container .card:hover {
-        height: 350px;
+        height: 400px;
     }
     
     .container .card .imgContainer {
         position: relative;
         width: 200px;
-        height: 250px;
+        height: 150px;
         top: -50px;
         left: 10px;
         z-index: 1;
@@ -570,7 +569,7 @@
     }
 
     .container .card .content p{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .btns .btnLive,
