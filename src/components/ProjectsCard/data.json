@@ -1,6 +1,5 @@
 [
     {
-        "id": "one",
         "title": "HowTo Paid From Open Source",
         "description": "This project I used Javascript, Css and Html. The project is simple information in Bulgarian language based on the lemonade-stand project in English",
         "image": "./ImageProjects/nowtopaidopensource.png",
@@ -11,7 +10,16 @@
         "isWindows": false
     },
     {
-        "id": "two",
+        "title": "Open Source Guides",
+        "description": "I contributed to the translation into Bulgarian of this open source created by Github.",
+        "image": "./ImageProjects/nowtopaidopensource.png",
+        "urlBtnLive": "https://opensource.guide/bg/",
+        "urlBtnCode": "https://github.com/BlueButterflies/opensource.guide",
+        "isWebsite": true,
+        "isAndroid": false,
+        "isWindows": false
+    },
+    {
         "title": "Robofriends",
         "description": "This project I used React and Javascript. I used the API for the random robot image and the API for the data information.",
         "image": "./ImageProjects/roboapp.png",
@@ -22,7 +30,6 @@
         "isWindows": false
     },
     {
-        "id": "three",
         "title": "Dream Nails By Lidi Nikolova",
         "description": "This website was created for a girl from Cyprus. The website has been written in Italian, Russian, Bulgarian, Greek and English. I use google fonts, font awesome and Materialize framework.",
         "image": "./ImageProjects/DreamNailsByLidinikolova.png",
@@ -33,7 +40,6 @@
         "isWindows": false
     },
     {
-        "id": "four",
         "title": "Demo Landing Page",
         "description": "This is simple landing page. I translated in Italian and Bulgarian languages. For this progect I use Javascript, Html, Css and Materialize modern framework.",
         "image": "./ImageProjects/landingPage.png",
@@ -44,7 +50,6 @@
         "isWindows": false
     },
     {
-        "id": "five",
         "title": "Simple website page for restaurant",
         "description": "This project is simple page where you can choose from the menu and order via WhatsApp or pay immediately. The project written in Italian. For this project I use Javascrip, Html and Css.",
         "image": "./ImageProjects/demoProject.png",
@@ -55,7 +60,6 @@
         "isWindows": false
     },
     {
-        "id": "six",
         "title": "Butterfly Tech Creative Solution",
         "description": "This project is my first personal website. I make project in Javascrip, Html and Css. I written project in English and translated in Italian and German.For this project I use Javascrip, Html and Css.",
         "image": "./ImageProjects/bluetech.png",
@@ -66,7 +70,6 @@
         "isWindows": false
     },
     {
-        "id": "seven",
         "title": "Smart Brain",
         "description": "This project I used React and Javascript. I create server with NodeJs and Database with PostgreSql.",
         "image": "./ImageProjects/smartBrain.png",
@@ -77,7 +80,6 @@
         "isWindows": false
     },
     {
-        "id": "eight",
         "title": " The Flying Bird Game",
         "description": "The game is create in Unity 2D with scrips in C#. The background changes based on the time.If it is day and the color is light blue, however if it is evening the color becomes blue.",
         "image": "./ImageProjects/bird.png",
@@ -89,7 +91,6 @@
         
     },
     {
-        "id": "nine",
         "title": "Italy Game",
         "description": "The game is create in Unity 2D with scrips in C#. This game is in Italian where you can practice missing vowels, articles, double letters and much more. It was created for first graders.",
         "image": "./ImageProjects/italygame.png",
@@ -102,7 +103,6 @@
         
     },
     {
-        "id": "ten",
         "title": "The Mathematic Game",
         "description": "The game is create in Unity 2D with scrips in C#. This is simple game where have addition, substract, multiplication and division.",
         "image": "./ImageProjects/mathematic.png",
@@ -114,7 +114,6 @@
         "isWindows": true
     },
     {
-        "id": "eleven",
         "title": "Phonebook",
         "description": "This Desktop Application project is a simple phonebook, where you can calculate the age, zodiac sign of the contact, has notifications for each contact's birthday, and than export to HTML format. The Application is create with C#, Windows Form in Visual Studio.",
         "image": "./ImageProjects/phonebook.jpg",
@@ -125,7 +124,6 @@
         "isWindows": true
     },
     {
-        "id": "twelf",
         "title": "Calculator",
         "description": "This Desktop Application is a simple Calculator with multiplication functions, temperature calculation and scientific calculator. The Application is create with C#, Windows Form in Visual Studio.",
         "image": "./ImageProjects/calculator.png",
@@ -136,7 +134,6 @@
         "isWindows": true
     },
     {
-        "id": "thirteen",
         "title": "Note",
         "description": " This Desktop Application is a simple Note Block where you can then write, print, save and open txt files. The Application is create with C#, Windows Form in Visual Studio.",
         "image": "./ImageProjects/note.png",

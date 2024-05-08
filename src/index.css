@@ -37,8 +37,12 @@ body {
 
 /*Project Section*/
 .btnLive, .btnSource, .btnAndroid, .btnWindows {
-  background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);
+  background: radial-gradient(circle at 0.4% -0.6%, rgb(143, 170, 210) 0%, rgb(255, 177, 177) 90%);;
   color: white;
+}
+
+.btnLive:hover, .btnSource:hover, .btnAndroid:hover, .btnWindows:hover {
+  background: radial-gradient(circle at 0.4% -0.6%, rgb(255, 177, 177) 0%, rgb(143, 170, 210) 90%);
 }
 
 /*Contact Section*/

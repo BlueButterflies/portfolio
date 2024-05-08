@@ -15,6 +15,7 @@ function Footer() {
             <a href="https://stackexchange.com/users/30342116/siyana-zdravkova" target="_blank">
                 <FaStackOverflow className="icon ma3" />
             </a>
+            
             <hr />
 
             <h6 className="mt3">
