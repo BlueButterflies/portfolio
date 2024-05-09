@@ -20,10 +20,10 @@ const ProjectsCard = () => {
                                         <h2>{data.title}</h2>
                                         <p>{data.description}</p>
                                         <div className="tc btns">
-                                            <a href={data.urlBtnLive} target="_blank" className="btnLive f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                            <a href={data.urlBtnLive} target="_blank" rel="noreferrer" className="btnLive f3 tc no-underline inline-flex items-center ba br4 pointer">
                                                 <FaEye className="btnLiveIcon" />
                                             </a>
-                                            <a href={data.urlBtnCode} target="_blank" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                            <a href={data.urlBtnCode} target="_blank" rel="noreferrer" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
                                                 <FaCode className="btnSourceIcon" />
                                             </a>
                                         </div>
@@ -42,13 +42,13 @@ const ProjectsCard = () => {
                                         <h2>{data.title}</h2>
                                         <p>{data.description}</p>
                                         <div className="tc btns">
-                                            <a href={data.urlBtnWindows} target="_blank" className="btnWindows f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                            <a href={data.urlBtnWindows} target="_blank" rel="noreferrer" className="btnWindows f3 tc no-underline inline-flex items-center ba br4 pointer">
                                                 <FaWindows className="btnWindowsIcon" />
                                             </a>
-                                            <a href={data.urlBtnAndroid} target="_blank" className="btnAndroid f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                            <a href={data.urlBtnAndroid} target="_blank" rel="noreferrer" className="btnAndroid f3 tc no-underline inline-flex items-center ba br4 pointer">
                                                 <FaAndroid className="btnAndroidIcon" />
                                             </a>
-                                            <a href={data.urlBtnCode} target="_blank" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                            <a href={data.urlBtnCode} target="_blank" rel="noreferrer" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
                                                 <FaCode className="btnSourceIcon" />
                                             </a>
                                         </div>
@@ -67,10 +67,10 @@ const ProjectsCard = () => {
                                         <h2>{data.title}</h2>
                                         <p>{data.description}</p>
                                         <div className="tc btns">
-                                            <a href={data.urlBtnWindows} target="_blank" className="btnWindows f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                            <a href={data.urlBtnWindows} target="_blank" rel="noreferrer" className="btnWindows f3 tc no-underline inline-flex items-center ba br4 pointer">
                                                 <FaWindows className="btnWindowsIcon" />
                                             </a>
-                                            <a href={data.urlBtnCode} target="_blank" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                            <a href={data.urlBtnCode} target="_blank" rel="noreferrer" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
                                                 <FaCode className="btnSourceIcon" />
                                             </a>
                                         </div>
@@ -88,10 +88,10 @@ const ProjectsCard = () => {
                                         <h2>{data.title}</h2>
                                         <p>{data.description}</p>
                                         <div className="tc btns">
-                                            <a href={data.urlBtnWindows} target="_blank" className="btnAndroid f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                            <a href={data.urlBtnWindows} target="_blank" rel="noreferrer" className="btnAndroid f3 tc no-underline inline-flex items-center ba br4 pointer">
                                                 <FaAndroid className="btnAndroidIcon" />
                                             </a>
-                                            <a href={data.urlBtnCode} target="_blank" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                            <a href={data.urlBtnCode} target="_blank" rel="noreferrer" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
                                                 <FaCode className="btnSourceIcon" />
                                             </a>
                                         </div>
