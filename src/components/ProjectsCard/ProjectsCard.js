@@ -2,6 +2,11 @@ import React from "react";
 import { FaEye, FaWindows, FaAndroid, FaCode } from "react-icons/fa";
 import Data from "./data.json";
 
+
+const DataProjects = () => {
+
+}
+
 const ProjectsCard = () => {
     return (
         <div className="projects">
@@ -108,6 +113,8 @@ const ProjectsCard = () => {
                                     </div>
                                 </div>
                             )
+                        }else{
+                            return null
                         }
 
                     })
