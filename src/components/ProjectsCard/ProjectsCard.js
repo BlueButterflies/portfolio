@@ -11,16 +11,6 @@ const ProjectsCard = () => {
 
                 {
                     Data.map((data) => {
-                        const imageProject = data.image;
-                        const title = data.title;
-                        const description = data.description;
-                        const urlBtnLive = data.urlBtnLive;
-                        const urlBtnCode = data.urlBtnCode;
-                        const urlBtnAndroid = data.urlBtnAndroid;
-                        const urlBtnWindows = data.urlBtnWindows;
-                        const isWebsite =  data.isWebsite;
-                        const isAndroid = data.isAndroid;
-                        const isWindows = data.isWindows;
 
                         if (data.isWebsite) {
 
