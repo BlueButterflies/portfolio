@@ -15,7 +15,7 @@ import "./App.css";
 function App() {
     const [init, setInit] = useState(false);
 
-    useEffect(() => {
+    useEffect((init) => {
         if (init) {
             return;
         }
