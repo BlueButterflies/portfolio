@@ -10,45 +10,55 @@ const ProjectsCard = () => {
 
                 {
                     Data.map((data) => {
-                        if (data.isWebsite) {
+                        const imageProject = data.image;
+                        const title = data.title;
+                        const description = data.description;
+                        const urlBtnLive = data.urlBtnLive;
+                        const urlBtnCode = data.urlBtnCode;
+                        const urlBtnAndroid = data.urlBtnAndroid;
+                        const urlBtnWindows = data.urlBtnWindows;
+                        const isWebsite =  data.isWebsite;
+                        const isAndroid = data.isAndroid;
+                        const isWindows = data.isWindows;
+
+                        if (isWebsite) {
+
                             return (
                                 <div class="card d-flex position-relative flex-column">
                                     <div class='imgContainer'>
-                                        <img src={data.image} className="img" />
+                                        <img src={imageProject} className="img" />
                                     </div>
                                     <div class="content navy">
-                                        <h2>{data.title}</h2>
-                                        <p>{data.description}</p>
+                                        <h2>{title}</h2>
+                                        <p>{description}</p>
                                         <div className="tc btns">
-                                            <a href={data.urlBtnLive} target="_blank" rel="noreferrer" className="btnLive f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                            <a href={urlBtnLive} target="_blank" rel="noreferrer" className="btnLive f3 tc no-underline inline-flex items-center ba br4 pointer">
                                                 <FaEye className="btnLiveIcon" />
                                             </a>
-                                            <a href={data.urlBtnCode} target="_blank" rel="noreferrer" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                            <a href={urlBtnCode} target="_blank" rel="noreferrer" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
                                                 <FaCode className="btnSourceIcon" />
                                             </a>
                                         </div>
                                     </div>
-
-
                                 </div>
                             )
-                        } else if (data.isAndroid && data.isWindows) {
+                        } else if (isAndroid && isWindows) {
                             return (
                                 <div class="card d-flex position-relative flex-column">
                                     <div class='imgContainer'>
-                                        <img src={data.image} className="img" />
+                                        <img src={imageProject} className="img" />
                                     </div>
                                     <div class="content navy">
-                                        <h2>{data.title}</h2>
-                                        <p>{data.description}</p>
+                                        <h2>{title}</h2>
+                                        <p>{description}</p>
                                         <div className="tc btns">
-                                            <a href={data.urlBtnWindows} target="_blank" rel="noreferrer" className="btnWindows f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                            <a href={urlBtnWindows} target="_blank" rel="noreferrer" className="btnWindows f3 tc no-underline inline-flex items-center ba br4 pointer">
                                                 <FaWindows className="btnWindowsIcon" />
                                             </a>
-                                            <a href={data.urlBtnAndroid} target="_blank" rel="noreferrer" className="btnAndroid f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                            <a href={urlBtnAndroid} target="_blank" rel="noreferrer" className="btnAndroid f3 tc no-underline inline-flex items-center ba br4 pointer">
                                                 <FaAndroid className="btnAndroidIcon" />
                                             </a>
-                                            <a href={data.urlBtnCode} target="_blank" rel="noreferrer" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                            <a href={urlBtnCode} target="_blank" rel="noreferrer" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
                                                 <FaCode className="btnSourceIcon" />
                                             </a>
                                         </div>
@@ -57,20 +67,20 @@ const ProjectsCard = () => {
 
                                 </div>
                             )
-                        } else if (data.isWindows) {
+                        } else if (isWindows) {
                             return (
                                 <div class="card d-flex position-relative flex-column">
                                     <div class='imgContainer'>
-                                        <img src={data.image} className="img" />
+                                        <img src={imageProject} className="img" />
                                     </div>
                                     <div class="content navy">
-                                        <h2>{data.title}</h2>
-                                        <p>{data.description}</p>
+                                        <h2>{title}</h2>
+                                        <p>{description}</p>
                                         <div className="tc btns">
-                                            <a href={data.urlBtnWindows} target="_blank" rel="noreferrer" className="btnWindows f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                            <a href={urlBtnWindows} target="_blank" rel="noreferrer" className="btnWindows f3 tc no-underline inline-flex items-center ba br4 pointer">
                                                 <FaWindows className="btnWindowsIcon" />
                                             </a>
-                                            <a href={data.urlBtnCode} target="_blank" rel="noreferrer" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                            <a href={urlBtnCode} target="_blank" rel="noreferrer" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
                                                 <FaCode className="btnSourceIcon" />
                                             </a>
                                         </div>
@@ -78,26 +88,24 @@ const ProjectsCard = () => {
                                 </div>
                             )
 
-                        } else if (data.isAndroid) {
+                        } else if (isAndroid) {
                             return (
                                 <div class="card d-flex position-relative flex-column" >
                                     <div class='imgContainer'>
-                                        <img src={data.image} className="img" />
+                                        <img src={imageProject} className="img" />
                                     </div>
                                     <div class="content navy">
-                                        <h2>{data.title}</h2>
-                                        <p>{data.description}</p>
+                                        <h2>{title}</h2>
+                                        <p>{description}</p>
                                         <div className="tc btns">
-                                            <a href={data.urlBtnWindows} target="_blank" rel="noreferrer" className="btnAndroid f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                            <a href={urlBtnWindows} target="_blank" rel="noreferrer" className="btnAndroid f3 tc no-underline inline-flex items-center ba br4 pointer">
                                                 <FaAndroid className="btnAndroidIcon" />
                                             </a>
-                                            <a href={data.urlBtnCode} target="_blank" rel="noreferrer" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
+                                            <a href={urlBtnCode} target="_blank" rel="noreferrer" className="btnSource f3 tc no-underline inline-flex items-center ba br4 pointer">
                                                 <FaCode className="btnSourceIcon" />
                                             </a>
                                         </div>
                                     </div>
-
-
                                 </div>
                             )
                         }
