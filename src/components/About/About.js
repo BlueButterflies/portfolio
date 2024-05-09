@@ -10,7 +10,7 @@ function About() {
                 <Row className="tc">
                     <Col sm={"12"} md={"6"} xs={"12"}>
 
-                        <Image src={Logo} roundedCircle fluid className="imgLogo" />
+                        <Image src={Logo} roundedCircle fluid className="imgLogo"  alt="logo"/>
                     </Col>
                     <Col sm={"12"} md={"6"} xs={"12"} className="tc">
                         <div className="tc animate__animated animate__zoomInUp animate__delay-2s">

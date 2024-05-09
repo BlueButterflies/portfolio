@@ -27,7 +27,7 @@ const ProjectsCard = () => {
                             return (
                                 <div class="card d-flex position-relative flex-column">
                                     <div class='imgContainer'>
-                                        <img src={imageProject} className="img" />
+                                        <img src={imageProject} className="img" alt="projectImage"/>
                                     </div>
                                     <div class="content navy">
                                         <h2>{title}</h2>
@@ -47,7 +47,7 @@ const ProjectsCard = () => {
                             return (
                                 <div class="card d-flex position-relative flex-column">
                                     <div class='imgContainer'>
-                                        <img src={imageProject} className="img" />
+                                        <img src={imageProject} className="img"  alt="projectImage"/>
                                     </div>
                                     <div class="content navy">
                                         <h2>{title}</h2>
@@ -72,7 +72,7 @@ const ProjectsCard = () => {
                             return (
                                 <div class="card d-flex position-relative flex-column">
                                     <div class='imgContainer'>
-                                        <img src={imageProject} className="img" />
+                                        <img src={imageProject} className="img"  alt="projectImage"/>
                                     </div>
                                     <div class="content navy">
                                         <h2>{title}</h2>
@@ -93,7 +93,7 @@ const ProjectsCard = () => {
                             return (
                                 <div class="card d-flex position-relative flex-column" >
                                     <div class='imgContainer'>
-                                        <img src={imageProject} className="img" />
+                                        <img src={imageProject} className="img"  alt="projectImage"/>
                                     </div>
                                     <div class="content navy">
                                         <h2>{title}</h2>
