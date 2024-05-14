@@ -1,5 +1,7 @@
 import React, { useRef } from "react";
-import {Container, Form, Button} from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 import { FaPaperPlane } from "react-icons/fa";
 import emailjs from '@emailjs/browser';
 
