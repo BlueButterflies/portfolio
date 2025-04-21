@@ -8,9 +8,6 @@ function Footer() {
             <a href="https://github.com/BlueButterflies" target="_blank"rel="noreferrer">
                 <FaGithub className="icon ma3" />
             </a>
-            <a href="https://www.linkedin.com/in/siyana-yasenova-zdravkova-b4905b205/" target="_blank" rel="noreferrer">
-                <FaLinkedinIn className="icon ma3" />
-            </a>
 
             <a href="https://stackexchange.com/users/30342116/siyana-zdravkova" target="_blank" rel="noreferrer">
                 <FaStackOverflow className="icon ma3" />
