@@ -8,7 +8,11 @@ function Footer() {
             <h6 className="mt3">
                 <FaCopyright className="copy" />
                 <a href="https://github.com/BlueButterflies?tab=repositories" target="_blank" rel="noreferrer">
-                    2024 - Create with <FaHeart className="copy" /> by<span>S/Z Siyana Zdravkova Web Developer</span>
+                    2024 - Create with 
+                </a>
+                <FaHeart className="copy" /> 
+                <a href="https://github.com/BlueButterflies?tab=repositories" target="_blank" rel="noreferrer">
+                    by <span>S/Z Siyana Zdravkova Web Developer</span>
                 </a>
             </h6>
         </Container>
