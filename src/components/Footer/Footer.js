@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import { FaGithub, FaLinkedinIn, FaStackOverflow, FaCopyright } from "react-icons/fa";
+import { FaGithub, FaStackOverflow, FaCopyright } from "react-icons/fa";
 
 function Footer() {
     return (
